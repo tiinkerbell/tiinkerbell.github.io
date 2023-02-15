@@ -1,0 +1,21 @@
+h1{color:red}
+p{color:green}
+.newcolor {background-color:aqua}
+.logo,
+.text-logo,
+.number,
+.button { float:left;
+padding: 40px;
+    margin: 40px;
+    border: 1px solid black;}
+.button{float:none;}
+.btnBlue{background-color: blueviolet;
+border:1px solid blueviolet;
+color:white;
+border-radius:5px;
+text-transform: uppercase;
+line-height: 140%;
+width:384 px;
+height: 72px;
+font-family:'Muller';
+font-size: 16px;}
