@@ -1,21 +1,71 @@
-h1{color:red}
-p{color:green}
-.newcolor {background-color:aqua}
+h1 {
+    color: black
+}
+
+p {
+    color: black
+}
+
+.newcolor {
+    background-color: aqua
+}
+
 .logo,
 .text-logo,
 .number,
-.button { float:left;
-padding: 40px;
+.button {
+    float: left;
+    padding: 40px;
     margin: 40px;
-    border: 1px solid black;}
-.button{float:none;}
-.btnBlue{background-color: blueviolet;
-border:1px solid blueviolet;
-color:white;
-border-radius:5px;
-text-transform: uppercase;
-line-height: 140%;
-width:384 px;
-height: 72px;
-font-family:'Muller';
-font-size: 16px;}
+    border: 1px solid black;
+}
+
+.button {
+    float: none;
+    background-color: gold;
+    border: 2px solid gold;
+    color: black;
+    border-radius: 8px;
+    text-transform: uppercase;
+    width: 280px;
+    height: 40 px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+
+
+}
+
+.btnBlue {
+    float: none;
+    background-color: gold;
+    border: 1px solid gold;
+    color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    line-height: 140%;
+    width: 384 px;
+    height: 72px;
+    font-family: 'Muller';
+    font-size: 16px;
+}
+
+.btnGreen{
+    float: none;
+    background-color: gold;
+    border: 2px solid gold;
+    color: black;
+    border-radius: 12px;
+    text-transform: uppercase;
+    width: 900px;
+    height: 140 px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+}
+.logo{
+    padding:0px;
+    margin: 40px 0 0 352px;
+   
+}
+        
