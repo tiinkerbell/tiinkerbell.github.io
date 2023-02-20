@@ -7,7 +7,7 @@ p {
 }
 
 .newcolor {
-    background-color: aqua
+    background-color:  white;
 }
 
 .logo,
@@ -17,22 +17,26 @@ p {
     float: left;
     padding: 40px;
     margin: 40px;
-    border: 1px solid black;
-}
+   }
 
 .button {
     float: none;
-    background-color: gold;
-    border: 2px solid gold;
+     background-color:  white;
+      border-color:  gold;
     color: black;
     border-radius: 8px;
-    text-transform: uppercase;
+    text-transform:none;
     width: 280px;
     height: 40 px;
+    font-style: normal;
+    font-weight: 400;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 19px;
-
+    text-align: center;
+    margin-top: 50px;
+    width: 280px;
+    height: 40px;
 
 }
 
@@ -50,7 +54,7 @@ p {
     font-size: 16px;
 }
 
-.btnGreen{
+.btnGreen {
     float: none;
     background-color: gold;
     border: 2px solid gold;
@@ -63,9 +67,45 @@ p {
     font-size: 16px;
     line-height: 19px;
 }
-.logo{
-    padding:0px;
-    margin: 40px 0 0 352px;
-   
+
+.logo {
+    padding: 0px;
+    margin: 50px 0 0 352px;
+    border: none;
+    float: left;
+
 }
-        
+
+.text-logo {
+    padding: 0px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    float: left;
+}
+
+.number {
+    padding: 0px;
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    border:none;
+    float: left;
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.button {
+    padding: 0px;
+    margin: 80px 0 0 20px;
+    border: 1px solid gold;
+    float: none;
+}
